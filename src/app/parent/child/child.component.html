@@ -1,0 +1,10 @@
+<p>child works!</p>
+
+<div *ngFor="let item of data">
+  {{item}}
+</div>
+
+<div>
+  <input type="text" [(ngModel)]="myText" >
+  <button (click)="submit()">Don't Press Me!</button>
+</div>
